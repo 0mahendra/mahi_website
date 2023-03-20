@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+   -- <script src="quiz.js"></script> 
+  
+</head>
+<body>
+    <header>
+      <h2>this is simple quiz app </h2>
+    </header>
+    <div class="time">
+      <p id="date">tues | nov 16 |  12 :25 </p>
+     </div>
+    <!-- login page -->
+    <div id="sing">
+    <div class="login">
+      <input type="button" id="login"  value ="login "name="login" placeholder="login" onclick="mylogin()" >
+      </div>
+      <div class="box" id ="b1">
+          <p>sign in please </p>
+      <label for="Email">Name </label>
+      <input type="text" id="Email" name="Email" placeholder="username">
+         <label for="pwd">password</label>
+         <input type="password" id="pwd" name="pwd" placeholder="passward">
+         <label for="remember">remember me</label>
+         <input type="checkbox" id="remember" name="remember">
+         <label for="submit2">sign in</label>
+         <input type="submit" id="submit2" name="submit2" onclick="mysubmit2()">
+      </div>
+      </div>
+      <!-- login page end -->
+    <div class="content" id="content1">
+     <main>
+        <div class="box1">
+              <h2  id="question" >your question will display here</h2>
+          <div class="box01" id="start">
+            <input type="button"  id="start1" value="start" onclick="mystart()">
+            <!-- <input type="" value="start" onclick="myfun()"> -->
+          </div> 
+          <div id="op">
+           <div class="box11">
+            <input class="answer" type="radio" name="option" id="ans1" >
+            <label class="ans1" id= "option1" for="ans1">option1 </label>
+          </div>
+          <div class="box11">
+            <input class="answer" type="radio" name="option" id="ans2" >
+            <label class="ans2" id="option2" for="ans2"> option2 </label>
+          </div>
+          <div class="box11">
+            <input class="answer" type="radio" name="option" id="ans3" >
+            <label class="ans3"id="option3" for="ans3"> option3 </label>
+          </div>
+          <div class="box11">
+            <input class="answer" type="radio" name="option" id="ans4" >
+            <label class="ans4" id="option4" for="ans4"> option4 </label>
+          </div>
+          </div>
+          <div class="box11">
+            <button id="next" onclick="mynext()" >next</button>
+          <button id="submit" onclick="mysubmit()" submit</button>
+          </div>
+          <div  id ="score"class="scorearea">
+           <h2 id="score1">"please give feedback about website click below to give your feedback .."<a href="https://www.instagram.com/mahendra_singh2001/">click</a> </h2>
+             
+          </div>
+        </div>
+     </main>
+     </div>
+    
+     <footer>
+      <p>this website is created by mahendra singh </p>
+     </footer>
+    
+</body>
+</html>

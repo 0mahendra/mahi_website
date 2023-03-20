@@ -1,0 +1,266 @@
+
+body{
+background-color:lightblue;
+background-image: url("https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.svg");
+background-repeat: no-repeat;
+background-size: 750px 750px;
+
+
+
+}
+.content{
+display:none;
+justify-content:end;
+align-items:flex-end;
+height: 295px;
+}
+header{
+height: 60px;
+background-color: black;
+color: aliceblue;
+font-size: 30px;
+text-align: center;
+margin: auto;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+}
+footer{
+height: 30px;
+font-weight: 500px;
+color: rgb(47, 15, 107);
+font-size: 25px;
+text-align:end;
+position: relative;
+bottom: -386px;
+padding-top: 20px;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+}
+#date{
+color: aliceblue;
+height: 30px;
+font-weight: 500px;
+font-size: 25px;
+text-align:end;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+}
+
+main{
+margin: 20px;
+/* height: 460px; */
+width: 700px;
+background-color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+box-shadow: 5px 5px rgb(75, 74, 74);
+}
+.box1{
+/* height: 450px; */
+width: 695px;
+border-radius: 15px;
+background-color: chartreuse;
+/* display: flex;
+flex-direction: column; */
+}
+button,#start1{
+height: 30px;
+width: 100px;
+background-color: blue;
+color: yellow;
+border-radius: 1px;
+border: 1px solid black;
+margin: auto;
+}
+h2,.b1,#score{
+
+font-style:normal;
+text-align: center;
+} 
+h2,#score{
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+}
+
+
+.box11{
+display: flex;
+justify-content:center;
+padding-left: 50px;
+padding-top: 5px;
+
+}
+input,button{
+cursor: pointer;
+}
+#score{
+height: 100px;
+width: 500px;
+background-color:dimgrey;
+box-shadow: 5px 5px rgb(75, 74, 74);
+margin:25px 110px;
+padding-top: 10px;
+display: none;
+
+}
+#submit:hover,#start1:hover,#next:hover{
+background-color: lightblue;
+cursor:pointer;
+}
+#next,#submit{
+display:none;
+} 
+#op{
+display: none;
+}
+/* logiin page  */
+p{
+color: black;
+font-size: 26px;
+font-weight: 300px ;
+}
+
+.box{
+margin: auto;
+display: flex;
+flex-direction:column ;
+justify-content: center;
+display: flex;
+}
+.login{
+opacity: 1;
+margin: auto;
+display: flex;
+flex-direction: column;
+
+}
+#sing{
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+}
+input{
+height: 40px;
+width: 300px;
+border-radius:10px ; 
+border: none;
+margin-bottom: 10px;
+}
+.box11 input{
+height: 16px;
+width: 64px;
+}
+input[type=button]{
+width: 200px;
+margin-top: 50px;
+}
+input:hover{
+background-color: crimson;
+border-color : 5px  blue;
+cursor: pointer;
+}
+#b1{
+display: none;
+
+}
+.time{
+height: 50px;
+background-color: black;
+color: aliceblue;
+font-size: 30px;
+text-align: center;
+text-transform: capitalize;
+font-family: 'Roboto', sans-serif;
+display: flex;
+justify-content: center;
+
+}
+
+@media only screen and (max-width:390px) {
+body{
+  background-size:328px 350px ;
+  background-image: fixed;
+  display: flex;
+flex-direction: column;
+align-content: space-around;
+justify-content: space-evenly;
+align-items: center;
+}
+main{
+  margin: -1px;
+  /* height: 460px; */
+  width: 308px;
+background-color: rgb(255, 181, 181);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 10px;
+box-shadow: 2px 2px rgb(75, 74, 74);
+
+}
+.box1{
+  height: 260px;
+  width: 308px;
+  border-radius: 10px;
+  background-color: chartreuse;
+/* display: flex;
+  flex-direction: column; */
+  margin-right: -1px;
+  margin-top: 10px;
+}
+#score{
+  height: 52px;
+  width: 274px;
+  background-color:dimgrey;
+  box-shadow: 5px 5px rgb(75, 74, 74);
+  margin:-5px 16px;
+  padding-top: 10px;
+  display: none;
+
+}
+header{
+  height: 60px;
+  width: 300px;
+  background-color: black;
+  color: aliceblue;
+  font-size: 30px;
+  text-align: center;
+
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+}
+.content{
+  display: none;
+  justify-content:flex-start;
+  align-items:flex-end;
+  height: 295px;
+}
+footer p{
+  height: 18px;
+  font-weight: 400;
+  color: rgb(47, 15, 107);
+  font-size: 16px;
+  text-align:left;
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+}
+footer {
+  height: 18px;
+  width: 308px;
+  font-weight: 400;
+  color: rgb(47, 15, 107);
+  font-size: 16px;
+  text-align:left;
+  padding-top: 20px;
+  text-transform: capitalize;
+  font-family: 'Roboto', sans-serif;
+}
+#score1 {
+font-family: 'Roboto', sans-serif;
+font-size: 18px;
+}
+
+}
